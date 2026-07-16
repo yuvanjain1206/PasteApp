@@ -1,16 +1,121 @@
-# React + Vite
+# 🚀 PasteVault
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Pastebin-style web application built with **React, Vite, Redux Toolkit, and Tailwind CSS**. Users can create, edit, view, search, copy, share, and delete text pastes with automatic persistence using **localStorage**.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 📝 Create and edit text pastes
+- 📖 View paste in a dedicated page
+- 🔍 Search pastes instantly
+- 📋 Copy paste content to clipboard
+- 🔗 Share pastes
+- 🗑️ Delete pastes
+- 💾 Persistent storage using localStorage
+- 🎨 Modern premium dark UI inspired by Notion, Linear, GitHub, and Vercel
+- 📱 Fully responsive design
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+- React 19
+- Vite
+- Redux Toolkit
+- React Router v7
+- Tailwind CSS v4
+- React Hot Toast
+- Lucide React Icons
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎨 UI / UX Highlights
+
+- Premium dark SaaS interface
+- Glassmorphism navigation bar
+- Responsive card-based layout
+- Smooth animations and transitions
+- Sticky navigation
+- Character count
+- Word count
+- Estimated reading time
+- Custom scrollbar
+- Modern toast notifications
+
+---
+
+## 📂 Project Structure
+
+```text
+PasteApp/
+├── public/
+├── src/
+│   ├── components/
+│   ├── redux/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
+```bash
+git clone https://github.com/yuvanjain1206/PasteApp.git
+cd PasteApp
+npm install
+npm run dev
+```
+
+---
+
+## 📸 Core Functionalities
+
+- Create new paste
+- Update existing paste
+- View paste details
+- Search pastes
+- Copy to clipboard
+- Share paste
+- Delete paste
+- Persistent Redux state using localStorage
+
+---
+
+## 🎯 UI Redesign
+
+This project includes a complete UI redesign while keeping the original application logic intact.
+
+### Redesigned Components
+
+- Navbar
+- Home Page
+- Paste List
+- View Paste
+- Toast Notifications
+- Global Styling
+
+### Preserved Functionality
+
+- Redux state management
+- React Router routes
+- localStorage persistence
+- CRUD operations
+- Business logic
+
+---
+
+## 👨‍💻 Author
+
+**Yuvan Jain**
+
+GitHub: https://github.com/yuvanjain1206
+
+---
+
+## ⭐ If you like this project
+
+Give this repository a ⭐ on GitHub.
