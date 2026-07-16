@@ -1,0 +1,16 @@
+/*
+  App.css
+
+  The previous contents of this file were leftover Vite starter-template
+  styles (.hero, #next-steps, #docs, .ticks, etc.) for a landing page that
+  no longer exists in this app — none of those class names are referenced
+  anywhere in Navbar.jsx, Home.jsx, Paste.jsx, or ViewPaste.jsx.
+
+  All current styling is handled through Tailwind utility classes directly
+  in the components, plus the global base styles in index.css. This file is
+  intentionally left empty (rather than deleted) so the existing
+  `import './App.css'` in App.jsx keeps working without modification.
+
+  If you want to add any custom, non-Tailwind CSS in the future, this is
+  the place for it.
+*/
